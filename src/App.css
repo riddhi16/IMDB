@@ -36,3 +36,46 @@
     transform: rotate(360deg);
   }
 }
+
+body{
+  box-sizing: border-box;
+}
+
+.Header{
+  padding:  0px 15px 0px 15px;
+  text-align: center;
+}
+.Banner{
+
+}
+
+.movie-list-Wrapper{
+
+}
+.movie-heading{
+
+}
+
+.movie-list{
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
+.movie-list-Wrapper .movie-list .movie-card{
+  width: 200px;
+  height: 300px;
+  border: 4px solid gray;
+  box-shadow: 2px 2px 2px rgb(0,0,0,5);
+  padding: 5px;
+  position: relative;
+}
+
+.movie-list-Wrapper .movie-list .movie-card img{
+  width: 100%;
+  height: 100%;
+}
+
+.movie-list-Wrapper .movie-list .movie-card button{
+  margin: auto;
+  background-color: antiquewhite;
+  position: absolute;
+} 
